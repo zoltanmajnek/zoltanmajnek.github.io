@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oracle on Home</title>
+    <link>https://zoltanmajnek.github.io/gallery/categories/oracle/</link>
+    <description>Recent content in Oracle on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>majnek.zoltan@gmail.com (Zoltan Majnek)</managingEditor>
+    <webMaster>majnek.zoltan@gmail.com (Zoltan Majnek)</webMaster>
+    <copyright>© Zoltan Majnek</copyright>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0200</lastBuildDate><atom:link href="https://zoltanmajnek.github.io/gallery/categories/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App &amp; Developer Repository Database</title>
+      <link>https://zoltanmajnek.github.io/gallery/oracle/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/oracle/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/oracle/1_hu_d18e6078165f8eab.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/oracle/1_hu_d18e6078165f8eab.jpg&quot; /&gt;
+          &lt;p&gt;Cross-dataset application repository built in Oracle with performance indexing, later migrated to Neo4j to model complex graph relationships across developers, apps, and media.&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

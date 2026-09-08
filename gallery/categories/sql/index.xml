@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Home</title>
+    <link>https://zoltanmajnek.github.io/gallery/categories/sql/</link>
+    <description>Recent content in SQL on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>majnek.zoltan@gmail.com (Zoltan Majnek)</managingEditor>
+    <webMaster>majnek.zoltan@gmail.com (Zoltan Majnek)</webMaster>
+    <copyright>© Zoltan Majnek</copyright>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0200</lastBuildDate><atom:link href="https://zoltanmajnek.github.io/gallery/categories/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App &amp; Developer Repository Database</title>
+      <link>https://zoltanmajnek.github.io/gallery/oracle/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/oracle/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/oracle/1_hu_d18e6078165f8eab.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/oracle/1_hu_d18e6078165f8eab.jpg&quot; /&gt;
+          &lt;p&gt;Cross-dataset application repository built in Oracle with performance indexing, later migrated to Neo4j to model complex graph relationships across developers, apps, and media.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Data Visualization and Business Intelligence</title>
+      <link>https://zoltanmajnek.github.io/gallery/pentaho/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/pentaho/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/pentaho/1_pentaho1draft_hu_f71407463d2e24b0.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/pentaho/1_pentaho1draft_hu_f71407463d2e24b0.jpg&quot; /&gt;
+          &lt;p&gt;Power BI, Pentaho, SSIS, PostgreSQL&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>ETL  Data Warehouse</title>
+      <link>https://zoltanmajnek.github.io/gallery/ssis/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/ssis/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/ssis/1_starinpowerbi_hu_48782b702d72b9d3.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/ssis/1_starinpowerbi_hu_48782b702d72b9d3.jpg&quot; /&gt;
+          &lt;p&gt;SQL -&gt; SSIS (ETL) -&gt; Data Warehouse -&gt; Power BI&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>SAP Analytics Cloud</title>
+      <link>https://zoltanmajnek.github.io/gallery/sac/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/sac/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/sac/sac1_hu_9c7d244aa3b11188.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/sac/sac1_hu_9c7d244aa3b11188.jpg&quot; /&gt;
+          &lt;p&gt;SAP Analytics Cloud&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

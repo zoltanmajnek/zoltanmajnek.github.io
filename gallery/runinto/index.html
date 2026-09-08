@@ -1,0 +1,469 @@
+<!doctype html>
+<html class="dark" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RunInto .NET MAUI mobile application - Home</title>
+  <link rel="canonical" href="https://zoltanmajnek.github.io/gallery/runinto/" />
+  <link rel="icon" type="image/svg+xml" href="https://zoltanmajnek.github.io/gallery/images/favicon.svg" />
+  <link rel="icon" type="image/png" href="https://zoltanmajnek.github.io/gallery/images/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://zoltanmajnek.github.io/gallery/images/apple-touch-icon.png" />
+  <meta name="description" content="A cross-platform mobile application designed for user networking and real-time messaging, featuring GPS location tracking, Firebase Cloud Messaging (FCM) push notifications, and hybrid NoSQL data persistence powered by Neo4j and Firebase. Click here to see the App in Action" />
+  
+  
+    <meta name="robots" content="index, follow" />
+  
+  <meta property="og:url" content="https://zoltanmajnek.github.io/gallery/runinto/" />
+  <meta property="og:site_name" content="Home" />
+  <meta property="og:title" content="RunInto .NET MAUI mobile application" />
+  <meta property="og:description" content="[A cross-platform mobile application designed for user networking and real-time messaging, featuring GPS location tracking, Firebase Cloud Messaging (FCM) push notifications, and hybrid NoSQL data persistence powered by Neo4j and Firebase. Click here to see the App in Action](https://youtube.com/shorts/KCAALVRFGHE)" />
+  <meta property="og:locale" content="en" />
+  <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2026-08-12T00:00:00+02:00" />
+    <meta property="article:modified_time" content="2026-08-12T00:00:00+02:00" />
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <meta property="og:image" content="https://zoltanmajnek.github.io/gallery/runinto/0_hu_f0ce0645399b3b9.png" />
+  
+  <link rel="stylesheet" href="https://zoltanmajnek.github.io/gallery/css/main.min.6031f18919a5919243f3aef7c58df672be3052a45dd4517b8fc728761fda4de4.css" />
+  
+  
+  <script src="https://zoltanmajnek.github.io/gallery/js/main.0eb0eb92728598293363fdc62b8d57f6e03d35d65a9c5ce4ec33504b4996b9c5.js" defer></script>
+</head>
+
+  <body>
+    <header>
+  
+    <a class="btn btn-square" href="https://zoltanmajnek.github.io/gallery/" title="Zoltan Majnek portfolio">
+      <svg width="24" height="24" data-slot="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"></path>
+      </svg>
+    </a>
+  
+  
+    <ul>
+      <li>
+        <button class="btn btn-square" id="menu-toggle" aria-expanded="false" type="button" title="Menu">
+          <svg class="icon-menu" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"></path>
+          </svg>
+          <svg class="icon-close hidden" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"></path>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  
+</header>
+
+  <menu class="hidden" id="menu">
+    
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="https://zoltanmajnek.github.io/gallery/" itemprop="url">
+          <span itemprop="name">Home</span>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="https://zoltanmajnek.github.io/gallery/categories/.net/" itemprop="url">
+          <span itemprop="name">.NET</span>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="https://zoltanmajnek.github.io/gallery/categories/business-intelligence/" itemprop="url">
+          <span itemprop="name">Business Intelligence</span>
+        </a>
+      </li>
+    
+      <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+        <a aria-current="false" href="https://zoltanmajnek.github.io/gallery/categories/etl/" itemprop="url">
+          <span itemprop="name">ETL</span>
+        </a>
+      </li>
+    
+  </menu>
+
+
+
+    <main>
+      
+  
+  <hgroup>
+    <h1>RunInto .NET MAUI mobile application</h1>
+    
+      <p><a href="https://youtube.com/shorts/KCAALVRFGHE">A cross-platform mobile application designed for user networking and real-time messaging, featuring GPS location tracking, Firebase Cloud Messaging (FCM) push notifications, and hybrid NoSQL data persistence powered by Neo4j and Firebase. Click here to see the App in Action</a></p>
+    
+  </hgroup>
+
+
+  <section class="gallery">
+  <div id="gallery" style="visibility: hidden; height: 1px; overflow: hidden">
+    
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+    
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/0.png" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/0_hu_d05fdf5253df0e5b.png" data-pswp-width="3840" data-pswp-height="2160" data-pswp-target="0.png" title="Project loaded in VS" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 675">
+        <figure style="background-color: #242424; aspect-ratio: 1200 / 675">
+          <img class="lazyload" width="1200" height="675" data-src="https://zoltanmajnek.github.io/gallery/runinto/0_hu_d99999cfde678097.png" alt="Project loaded in VS" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/0.png" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/Dia2.PNG" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/Dia2_hu_88ce11b05b95bafc.PNG" data-pswp-width="1280" data-pswp-height="720" data-pswp-target="dia2.png" title="Hybrid NoSQL model - Polyglot persistence" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 675">
+        <figure style="background-color: #f8f8f8; aspect-ratio: 1200 / 675">
+          <img class="lazyload" width="1200" height="675" data-src="https://zoltanmajnek.github.io/gallery/runinto/Dia2_hu_bd70ff8fe7acd520.PNG" alt="Hybrid NoSQL model - Polyglot persistence" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/Dia2.PNG" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/Dia3.PNG" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/Dia3_hu_44e015f554b0c54b.PNG" data-pswp-width="1280" data-pswp-height="720" data-pswp-target="dia3.png" title="The distributed architecture of the system" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 675">
+        <figure style="background-color: #f4f7f5; aspect-ratio: 1200 / 675">
+          <img class="lazyload" width="1200" height="675" data-src="https://zoltanmajnek.github.io/gallery/runinto/Dia3_hu_cf0505eeed0eda2e.PNG" alt="The distributed architecture of the system" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/Dia3.PNG" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/Dia5.PNG" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/Dia5_hu_e03910eb2a10dd1e.PNG" data-pswp-width="1280" data-pswp-height="720" data-pswp-target="dia5.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 675">
+        <figure style="background-color: #fafafa; aspect-ratio: 1200 / 675">
+          <img class="lazyload" width="1200" height="675" data-src="https://zoltanmajnek.github.io/gallery/runinto/Dia5_hu_d524cd924d356cc.PNG" alt="" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/Dia5.PNG" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/Dia6.PNG" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/Dia6_hu_f77fddd660d67bf7.PNG" data-pswp-width="1280" data-pswp-height="720" data-pswp-target="dia6.png" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 675">
+        <figure style="background-color: #f7f8f9; aspect-ratio: 1200 / 675">
+          <img class="lazyload" width="1200" height="675" data-src="https://zoltanmajnek.github.io/gallery/runinto/Dia6_hu_bd7f65e40b0b2b2e.PNG" alt="" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/Dia6.PNG" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/Dia7.PNG" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/Dia7_hu_67daf486a9527834.PNG" data-pswp-width="1280" data-pswp-height="720" data-pswp-target="dia7.png" title="Screens from the app." itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 675">
+        <figure style="background-color: #f4f4f6; aspect-ratio: 1200 / 675">
+          <img class="lazyload" width="1200" height="675" data-src="https://zoltanmajnek.github.io/gallery/runinto/Dia7_hu_b20a74bc33d628b3.PNG" alt="Screens from the app." />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/Dia7.PNG" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/E0.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/E0_hu_d52bdec3dfb1cc.jpg" data-pswp-width="606" data-pswp-height="1379" data-pswp-target="e0.jpg" title="The main function." itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 527 / 1200">
+        <figure style="background-color: #dedde5; aspect-ratio: 527 / 1200">
+          <img class="lazyload" width="527" height="1200" data-src="https://zoltanmajnek.github.io/gallery/runinto/E0_hu_3edfe8eea3a1f123.jpg" alt="The main function." />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/E0.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/E1-app.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/E1-app_hu_d4513c63bf1dbe9.jpg" data-pswp-width="1858" data-pswp-height="1267" data-pswp-target="e1-app.jpg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 818">
+        <figure style="background-color: #e5e6e6; aspect-ratio: 1200 / 818">
+          <img class="lazyload" width="1200" height="818" data-src="https://zoltanmajnek.github.io/gallery/runinto/E1-app_hu_7d627f5c1c624e8e.jpg" alt="" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/E1-app.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/E2-app.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/E2-app_hu_f285be0ef2ecbf93.jpg" data-pswp-width="1202" data-pswp-height="1259" data-pswp-target="e2-app.jpg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1146 / 1200">
+        <figure style="background-color: #f6f8f9; aspect-ratio: 1146 / 1200">
+          <img class="lazyload" width="1146" height="1200" data-src="https://zoltanmajnek.github.io/gallery/runinto/E2-app_hu_16d0c146ea333f90.jpg" alt="" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/E2-app.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/runinto/E8darkmode.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/runinto/E8darkmode_hu_d0eccf590ef5f053.jpg" data-pswp-width="946" data-pswp-height="2049" data-pswp-target="e8darkmode.jpg" title="Dark mode." itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 554 / 1200">
+        <figure style="background-color: #eeedea; aspect-ratio: 554 / 1200">
+          <img class="lazyload" width="554" height="1200" data-src="https://zoltanmajnek.github.io/gallery/runinto/E8darkmode_hu_714489c00be31e42.jpg" alt="Dark mode." />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/runinto/E8darkmode.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+  </div>
+</section>
+
+  
+
+
+  
+
+    </main>
+    <footer>
+  
+  <section class="social-icons">
+    
+    
+    
+    
+      <a target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/majnek.zoltan/">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    
+    
+    
+      <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/zoltanmajnek">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    
+    
+    
+    
+    
+      <a title="E-Mail" href="mailto:majnek.zoltan@gmail.com">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"></path>
+          <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"></path>
+        </svg>
+      </a>
+    
+    
+    
+    
+    
+  </section>
+
+
+  <section>
+    © Zoltan Majnek
+    
+      <a href="https://zoltanmajnek.github.io/gallery/imprint/">
+        My Other Sites
+      </a>
+    
+      <a href="https://github.com/zoltanmajnek">
+        GitHub
+      </a>
+    
+  </section>
+</footer>
+
+  </body>
+</html>

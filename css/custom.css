@@ -1,0 +1,103 @@
+/* 1. Az About szekció betűméretének növelése és sorköz igazítása 
+#about p,
+#about .about-content,
+#about .description {
+    font-size: 24px;
+    line-height: 1.7;
+}*/
+
+#about h2 {
+margin-top: 20px;
+}
+
+/* Az About szekció teljes szövegére kiterjedő méretnövelés */
+#about,
+#about p,
+#about div,
+#about .lead,
+#about .article-style {
+    font-size: 1.8rem !important; /* vagy pl. 19px */
+    line-height: 1.6 !important;
+	background-color: rgba(212, 212, 212, 0.6) !important;
+}
+
+/* Ha a bemutatkozó rövid szöveget (profile_text) és a fő szöveget külön akarod finomhangolni: 
+#about .biography,
+#about .about-content {
+    font-size: 1.2rem !important;
+}*/
+
+/* 2. Ráfolyás javítása közepes és kisebb képernyőkön */
+#about .row,
+#about .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* A képet és a szöveget tartalmazó oszlopok viselkedése */
+#about .col-md-6,
+#about .about-img,
+#about .about-text {
+    box-sizing: border-box;
+}
+
+/* Megakadályozza, hogy a kép túllógjon vagy a szöveg alá/fölé csússzon */
+#about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Kifejezetten a profile_text elemre és a benne lévő szövegre/bekezdésekre */
+#about .profile-text,
+#about .profile-text p,
+#about .profile p,
+#about [class*="profile"] p {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}
+
+/* A sor elemeit felülre (top) igazítjuk függőlegesen */
+#about .row,
+#about .container {
+    align-items: flex-start !important;
+}
+
+/* Biztosíték: a szöveges oszlop belső margója se húzza lefelé a blokkot */
+#about .col-md-6,
+#about .about-text,
+#about .about-content {
+    align-self: flex-start !important;
+    margin-top: 0 !important;
+}
+
+/* Ha az első bekezdésnek vagy címnek van felesleges felső margója, azt is nullázzuk */
+#about .about-content > *:first-child,
+#about .about-text > *:first-child {
+    margin-top: 0 !important;
+}
+
+/* Ha a képernyő szélessége 991px alá esik (tablet / kisebb laptop):
+   a kép és a szöveg egymás alá kerüljön ahelyett, hogy összeakadnának */
+@media (max-width: 991px) {
+    #about .col-md-6,
+    #about .about-img,
+    #about .about-text {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #about .about-img {
+        margin-bottom: 2rem;
+    }
+
+    #about img {
+        margin: 0 auto;
+    }
+}

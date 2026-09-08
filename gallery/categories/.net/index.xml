@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET on Home</title>
+    <link>https://zoltanmajnek.github.io/gallery/categories/.net/</link>
+    <description>Recent content in .NET on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>majnek.zoltan@gmail.com (Zoltan Majnek)</managingEditor>
+    <webMaster>majnek.zoltan@gmail.com (Zoltan Majnek)</webMaster>
+    <copyright>© Zoltan Majnek</copyright>
+    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0200</lastBuildDate><atom:link href="https://zoltanmajnek.github.io/gallery/categories/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RunInto .NET MAUI mobile application</title>
+      <link>https://zoltanmajnek.github.io/gallery/runinto/</link>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/runinto/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/runinto/0_hu_986eebb7a3ab2928.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/runinto/0_hu_986eebb7a3ab2928.png&quot; /&gt;
+          &lt;p&gt;[A cross-platform mobile application designed for user networking and real-time messaging, featuring GPS location tracking, Firebase Cloud Messaging (FCM) push notifications, and hybrid NoSQL data persistence powered by Neo4j and Firebase. Click here to see the App in Action](https://youtube.com/shorts/KCAALVRFGHE)&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
