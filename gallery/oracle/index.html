@@ -3,20 +3,20 @@
   <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>App &amp; Developer Repository Database - Home</title>
+  <title>Oracle SQL &amp; Neo4j Pipeline: From Raw Kaggle Data to Optimized Queries - Home</title>
   <link rel="canonical" href="https://zoltanmajnek.github.io/gallery/oracle/" />
   <link rel="icon" type="image/svg+xml" href="https://zoltanmajnek.github.io/gallery/images/favicon.svg" />
   <link rel="icon" type="image/png" href="https://zoltanmajnek.github.io/gallery/images/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="https://zoltanmajnek.github.io/gallery/images/apple-touch-icon.png" />
-  <meta name="description" content="Cross-dataset application repository built in Oracle with performance indexing, later migrated to Neo4j to model complex graph relationships across developers, apps, and media." />
+  <meta name="description" content="This project is an application registry database, initially built in Oracle SQL and later migrated to Neo4j. The core dataset-containing information about applications, developers, and programming languages-was sourced from Kaggle. Some of the raw CSV and XLS files contained millions of rows. I built a custom data preparation pipeline to handle the raw CSV files. Using custom C# scripts, I cleaned formatting errors, normalized the structures, and merged the datasets into an import-ready format. The initial import process generated the base CREATE SQL statements, which I then manually refined to set up the proper relational schema. Once the Oracle database was running, I wrote and optimized various queries, applying indexing to improve execution times. The domain involved many-to-many (N:M) relationships, so I chose Neo4j for the next phase. I handled the data export-import process to migrate everything from Oracle to Neo4j and built graph visualizations to map out the connections. The entire workflow, from data cleaning to the final graph models, was documented in a 30-page technical report, accompanied by a 20-page appendix containing all the C# and database scripts." />
   
   
     <meta name="robots" content="index, follow" />
   
   <meta property="og:url" content="https://zoltanmajnek.github.io/gallery/oracle/" />
   <meta property="og:site_name" content="Home" />
-  <meta property="og:title" content="App & Developer Repository Database" />
-  <meta property="og:description" content="Cross-dataset application repository built in Oracle with performance indexing, later migrated to Neo4j to model complex graph relationships across developers, apps, and media." />
+  <meta property="og:title" content="Oracle SQL & Neo4j Pipeline: From Raw Kaggle Data to Optimized Queries" />
+  <meta property="og:description" content="This project is an application registry database, initially built in Oracle SQL and later migrated to Neo4j. The core dataset-containing information about applications, developers, and programming languages-was sourced from Kaggle. Some of the raw CSV and XLS files contained millions of rows. I built a custom data preparation pipeline to handle the raw CSV files. Using custom C# scripts, I cleaned formatting errors, normalized the structures, and merged the datasets into an import-ready format. The initial import process generated the base CREATE SQL statements, which I then manually refined to set up the proper relational schema. Once the Oracle database was running, I wrote and optimized various queries, applying indexing to improve execution times. The domain involved many-to-many (N:M) relationships, so I chose Neo4j for the next phase. I handled the data export-import process to migrate everything from Oracle to Neo4j and built graph visualizations to map out the connections. The entire workflow, from data cleaning to the final graph models, was documented in a 30-page technical report, accompanied by a 20-page appendix containing all the C# and database scripts." />
   <meta property="og:locale" content="en" />
   <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2026-06-01T00:00:00+02:00" />
@@ -25,9 +25,25 @@
   
 
   
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
-  <meta property="og:image" content="https://zoltanmajnek.github.io/gallery/oracle/1_hu_4ae716fe1d3eddc5.jpg" />
+  <meta property="og:image" content="https://zoltanmajnek.github.io/gallery/oracle/2_hu_346b904eb4c2afa9.jpg" />
   
   <link rel="stylesheet" href="https://zoltanmajnek.github.io/gallery/css/main.min.6031f18919a5919243f3aef7c58df672be3052a45dd4517b8fc728761fda4de4.css" />
   
@@ -94,9 +110,9 @@
       
   
   <hgroup>
-    <h1>App &amp; Developer Repository Database</h1>
+    <h1>Oracle SQL &amp; Neo4j Pipeline: From Raw Kaggle Data to Optimized Queries</h1>
     
-      <p>Cross-dataset application repository built in Oracle with performance indexing, later migrated to Neo4j to model complex graph relationships across developers, apps, and media.</p>
+      <p>This project is an application registry database, initially built in Oracle SQL and later migrated to Neo4j. The core dataset-containing information about applications, developers, and programming languages-was sourced from Kaggle. Some of the raw CSV and XLS files contained millions of rows. I built a custom data preparation pipeline to handle the raw CSV files. Using custom C# scripts, I cleaned formatting errors, normalized the structures, and merged the datasets into an import-ready format. The initial import process generated the base CREATE SQL statements, which I then manually refined to set up the proper relational schema. Once the Oracle database was running, I wrote and optimized various queries, applying indexing to improve execution times. The domain involved many-to-many (N:M) relationships, so I chose Neo4j for the next phase. I handled the data export-import process to migrate everything from Oracle to Neo4j and built graph visualizations to map out the connections. The entire workflow, from data cleaning to the final graph models, was documented in a 30-page technical report, accompanied by a 20-page appendix containing all the C# and database scripts.</p>
     
   </hgroup>
 
@@ -112,6 +128,9 @@
         
       
       
+        
+        
+      
       
       
     
@@ -121,6 +140,100 @@
         
         
       
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+      
+    
+      
+      
+      
+        
+        
+      
+      
+        
+        
       
       
       
@@ -131,9 +244,9 @@
 	  
       
       
-      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/1.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/1_hu_e48a40c10bce007a.jpg" data-pswp-width="2017" data-pswp-height="1069" data-pswp-target="1.jpg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 636">
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/1.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/1_hu_e48a40c10bce007a.jpg" data-pswp-width="2017" data-pswp-height="1069" data-pswp-target="1.jpg" title="DRAW IO" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 636">
         <figure style="background-color: #f8f7f7; aspect-ratio: 1200 / 636">
-          <img class="lazyload" width="1200" height="636" data-src="https://zoltanmajnek.github.io/gallery/oracle/1_hu_40bbf91b3f1f2d6d.jpg" alt="" />
+          <img class="lazyload" width="1200" height="636" data-src="https://zoltanmajnek.github.io/gallery/oracle/1_hu_40bbf91b3f1f2d6d.jpg" alt="DRAW IO" />
         </figure>
         <meta itemprop="contentUrl" content="/gallery/oracle/1.jpg" />
         
@@ -147,11 +260,123 @@
 	  
       
       
-      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/2.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/2_hu_7b1d7e4be4b4a3fc.jpg" data-pswp-width="1959" data-pswp-height="1387" data-pswp-target="2.jpg" title="" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 850">
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/2.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/2_hu_7b1d7e4be4b4a3fc.jpg" data-pswp-width="1959" data-pswp-height="1387" data-pswp-target="2.jpg" title="Oracle Data Modeller" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 850">
         <figure style="background-color: #fbfce6; aspect-ratio: 1200 / 850">
-          <img class="lazyload" width="1200" height="850" data-src="https://zoltanmajnek.github.io/gallery/oracle/2_hu_1aa6178e08ca9282.jpg" alt="" />
+          <img class="lazyload" width="1200" height="850" data-src="https://zoltanmajnek.github.io/gallery/oracle/2_hu_1aa6178e08ca9282.jpg" alt="Oracle Data Modeller" />
         </figure>
         <meta itemprop="contentUrl" content="/gallery/oracle/2.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/3.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/3_hu_863a51a60d61c3d6.jpg" data-pswp-width="3024" data-pswp-height="1002" data-pswp-target="3.jpg" title="Processing multi-million row Kaggle datasets using custom C# scripts." itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 398">
+        <figure style="background-color: #212122; aspect-ratio: 1200 / 398">
+          <img class="lazyload" width="1200" height="398" data-src="https://zoltanmajnek.github.io/gallery/oracle/3_hu_fa5a7992e19084d2.jpg" alt="Processing multi-million row Kaggle datasets using custom C# scripts." />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/3.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/4.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/4_hu_79d3b9f6abcc6b49.jpg" data-pswp-width="2618" data-pswp-height="1735" data-pswp-target="4.jpg" title="Optimizing query performance in Oracle SQL" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 795">
+        <figure style="background-color: #faf9fa; aspect-ratio: 1200 / 795">
+          <img class="lazyload" width="1200" height="795" data-src="https://zoltanmajnek.github.io/gallery/oracle/4_hu_58e730a4a802dd99.jpg" alt="Optimizing query performance in Oracle SQL" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/4.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/5.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/5_hu_93b570633b3ba5ee.jpg" data-pswp-width="1123" data-pswp-height="1125" data-pswp-target="5.jpg" title="From Oracle to Neo4j step1" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1123 / 1125">
+        <figure style="background-color: #fafafa; aspect-ratio: 1123 / 1125">
+          <img class="lazyload" width="1123" height="1125" data-src="https://zoltanmajnek.github.io/gallery/oracle/5_hu_34d37684de6e07c.jpg" alt="From Oracle to Neo4j step1" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/5.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/6.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/6_hu_3c6080a5be346427.jpg" data-pswp-width="1138" data-pswp-height="1373" data-pswp-target="6.jpg" title="From Oracle to Neo4j. Many-to-many management, removing unnecessary keys" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 995 / 1200">
+        <figure style="background-color: #fbfbfb; aspect-ratio: 995 / 1200">
+          <img class="lazyload" width="995" height="1200" data-src="https://zoltanmajnek.github.io/gallery/oracle/6_hu_d368767c8c75f01d.jpg" alt="From Oracle to Neo4j. Many-to-many management, removing unnecessary keys" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/6.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/7a.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/7a_hu_b79dcf6161810df4.jpg" data-pswp-width="1198" data-pswp-height="900" data-pswp-target="7a.jpg" title="Neo4j queries" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1198 / 900">
+        <figure style="background-color: #fafafa; aspect-ratio: 1198 / 900">
+          <img class="lazyload" width="1198" height="900" data-src="https://zoltanmajnek.github.io/gallery/oracle/7a_hu_1e7775b26f8169fb.jpg" alt="Neo4j queries" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/7a.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/7b.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/7b_hu_a75d014c5f7b9ba0.jpg" data-pswp-width="945" data-pswp-height="613" data-pswp-target="7b.jpg" title="Neo4j queries" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 945 / 613">
+        <figure style="background-color: #f6f3f5; aspect-ratio: 945 / 613">
+          <img class="lazyload" width="945" height="613" data-src="https://zoltanmajnek.github.io/gallery/oracle/7b_hu_209c4b9f957087ab.jpg" alt="Neo4j queries" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/7b.jpg" />
+        
+          <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Zoltan Majnek" />
+          </span>
+        
+      </a>
+    
+      
+	  
+      
+      
+      <a class="gallery-item" href="https://zoltanmajnek.github.io/gallery/oracle/8.jpg" data-pswp-src="https://zoltanmajnek.github.io/gallery/oracle/8_hu_560311e478799beb.jpg" data-pswp-width="2463" data-pswp-height="1090" data-pswp-target="8.jpg" title="Table of contents of the documentation" itemscope itemtype="https://schema.org/ImageObject" style="aspect-ratio: 1200 / 531">
+        <figure style="background-color: #f9f9f9; aspect-ratio: 1200 / 531">
+          <img class="lazyload" width="1200" height="531" data-src="https://zoltanmajnek.github.io/gallery/oracle/8_hu_e4d2aaa32d1c221a.jpg" alt="Table of contents of the documentation" />
+        </figure>
+        <meta itemprop="contentUrl" content="/gallery/oracle/8.jpg" />
         
           <span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
             <meta itemprop="name" content="Zoltan Majnek" />

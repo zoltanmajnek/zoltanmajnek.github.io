@@ -21,14 +21,14 @@
           &lt;p&gt;[A cross-platform mobile application designed for user networking and real-time messaging, featuring GPS location tracking, Firebase Cloud Messaging (FCM) push notifications, and hybrid NoSQL data persistence powered by Neo4j and Firebase. Click here to see the App in Action](https://youtube.com/shorts/KCAALVRFGHE)&lt;/p&gt;
         </description></item>
     <item>
-      <title>App &amp; Developer Repository Database</title>
+      <title>Oracle SQL &amp; Neo4j Pipeline: From Raw Kaggle Data to Optimized Queries</title>
       <link>https://zoltanmajnek.github.io/gallery/oracle/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
       <guid>https://zoltanmajnek.github.io/gallery/oracle/</guid>
-        <media:content url="https://zoltanmajnek.github.io/gallery/oracle/1_hu_d18e6078165f8eab.jpg" type="image/jpeg"/>
+        <media:content url="https://zoltanmajnek.github.io/gallery/oracle/2_hu_ba63814295427fdc.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/oracle/1_hu_d18e6078165f8eab.jpg&quot; /&gt;
-          &lt;p&gt;Cross-dataset application repository built in Oracle with performance indexing, later migrated to Neo4j to model complex graph relationships across developers, apps, and media.&lt;/p&gt;
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/oracle/2_hu_ba63814295427fdc.jpg&quot; /&gt;
+          &lt;p&gt;This project is an application registry database, initially built in Oracle SQL and later migrated to Neo4j. The core dataset-containing information about applications, developers, and programming languages-was sourced from Kaggle. Some of the raw CSV and XLS files contained millions of rows. I built a custom data preparation pipeline to handle the raw CSV files. Using custom C# scripts, I cleaned formatting errors, normalized the structures, and merged the datasets into an import-ready format. The initial import process generated the base CREATE SQL statements, which I then manually refined to set up the proper relational schema. Once the Oracle database was running, I wrote and optimized various queries, applying indexing to improve execution times. The domain involved many-to-many (N:M) relationships, so I chose Neo4j for the next phase. I handled the data export-import process to migrate everything from Oracle to Neo4j and built graph visualizations to map out the connections. The entire workflow, from data cleaning to the final graph models, was documented in a 30-page technical report, accompanied by a 20-page appendix containing all the C# and database scripts.&lt;/p&gt;
         </description></item>
   </channel>
 </rss>
