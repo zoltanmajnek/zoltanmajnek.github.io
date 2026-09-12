@@ -5,13 +5,16 @@
     <loc>https://zoltanmajnek.github.io/gallery/categories/dotnet/</loc>
     <lastmod>2026-08-12T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://zoltanmajnek.github.io/gallery/categories/firebase/</loc>
-    <lastmod>2026-08-12T00:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://zoltanmajnek.github.io/gallery/categories/mobile/</loc>
     <lastmod>2026-08-12T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://zoltanmajnek.github.io/gallery/categories/neo4j/</loc>
+    <loc>https://zoltanmajnek.github.io/gallery/categories/nosql/</loc>
+    <lastmod>2026-08-12T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://zoltanmajnek.github.io/gallery/categories/oop/</loc>
+    <lastmod>2026-08-12T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://zoltanmajnek.github.io/gallery/categories/programming/</loc>
     <lastmod>2026-08-12T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://zoltanmajnek.github.io/gallery/runinto/</loc>
@@ -20,7 +23,13 @@
     <loc>https://zoltanmajnek.github.io/gallery/</loc>
     <lastmod>2026-08-12T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://zoltanmajnek.github.io/gallery/categories/business-intelligence/</loc>
+    <loc>https://zoltanmajnek.github.io/gallery/categories/bi/</loc>
+    <lastmod>2026-06-01T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://zoltanmajnek.github.io/gallery/ssis/</loc>
+    <lastmod>2026-06-01T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://zoltanmajnek.github.io/gallery/chess/</loc>
     <lastmod>2026-06-01T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://zoltanmajnek.github.io/gallery/categories/data-visualization/</loc>
@@ -32,10 +41,13 @@
     <loc>https://zoltanmajnek.github.io/gallery/categories/database-design/</loc>
     <lastmod>2026-06-01T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://zoltanmajnek.github.io/gallery/categories/etl/</loc>
+    <loc>https://zoltanmajnek.github.io/gallery/orchard/</loc>
     <lastmod>2026-06-01T00:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://zoltanmajnek.github.io/gallery/ssis/</loc>
+    <loc>https://zoltanmajnek.github.io/gallery/categories/entity-framework/</loc>
+    <lastmod>2026-06-01T00:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://zoltanmajnek.github.io/gallery/categories/etl/</loc>
     <lastmod>2026-06-01T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://zoltanmajnek.github.io/gallery/categories/oracle/</loc>
