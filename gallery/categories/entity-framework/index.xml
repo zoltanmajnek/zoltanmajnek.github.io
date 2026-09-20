@@ -11,14 +11,24 @@
     <copyright>© Zoltan Majnek</copyright>
     <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0200</lastBuildDate><atom:link href="https://zoltanmajnek.github.io/gallery/categories/entity-framework/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Enterprise O1 project</title>
+      <title>Enterprise Orchard CMS Solution</title>
       <link>https://zoltanmajnek.github.io/gallery/orchard/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
       <guid>https://zoltanmajnek.github.io/gallery/orchard/</guid>
-        <media:content url="https://zoltanmajnek.github.io/gallery/orchard/o1_hu_79e272f3768af809.jpg" type="image/jpeg"/>
+        <media:content url="https://zoltanmajnek.github.io/gallery/orchard/1_hu_669ee9befe2176d8.jpg" type="image/jpeg"/>
         <description>
-          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/orchard/o1_hu_79e272f3768af809.jpg&quot; /&gt;
-          &lt;p&gt;Coming soon...&lt;/p&gt;
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/orchard/1_hu_669ee9befe2176d8.jpg&quot; /&gt;
+          &lt;p&gt;
+**Project Type:** Enterprise Web Application / Content Management System **Role:** .NET Software Engineer **Tech Stack:** C#, .NET, Orchard CMS
+*Note: Due to non-disclosure agreements (NDA) and the proprietary nature of this enterprise system, source code and screenshots cannot be shared. This summary highlights the technical scope and architectural challenges of the project.*
+## Project Overview
+I contributed to the ongoing development, maintenance, and feature expansion of a massive, monolithic enterprise web portal built on **Orchard CMS**. The underlying architecture was exceptionally large and complex, consisting of a single .NET solution containing **over 100 interdependent projects**. Navigating, debugging, and extending a codebase of this scale required a deep understanding of modular architecture, dependency management, and enterprise-grade design patterns. Over the course of the project, I was responsible for delivering various system improvements, bug fixes, and custom modules.
+## Feature Spotlight: Temporary Profile Access Module
+While my work spanned multiple areas of the application, one of my notable end-to-end deliveries was architecting and implementing a comprehensive **Temporary Profile Access Module**. This feature allowed administrators to dynamically grant time-bound access rights to specific, restricted content across the portal.
+Key deliverables and responsibilities included:
+**Universal Content Assignment:** Engineered the core logic to ensure that temporary access rights could be dynamically assigned to *any* custom content type within the extensive Orchard CMS ecosystem, ensuring maximum flexibility. **Rights Management Modal:** Developed a complex modal interface where administrators could seamlessly configure permissions, select specific content entities, and define the exact scope of the temporary access. **Custom Landing Page Integration:** Created a dedicated, secure landing page tailored for temporary users, providing them with a streamlined entry point to access the specific content they were granted rights to view. **System Integration:** Ensured the new module integrated flawlessly with the existing authentication and authorization pipelines of the massive 100+ project solution, without introducing regressions or performance bottlenecks.
+## Technical Takeaways
+Working on this solution demonstrated my ability to onboard quickly into a colossal codebase and deliver robust features within a strict enterprise environment. Developing the Access Management module (from the backend permission logic to the user-facing modal and landing page) reinforced my expertise in handling complex data flows and extending mature, large-scale .NET applications securely and efficiently.&lt;/p&gt;
         </description></item>
   </channel>
 </rss>
