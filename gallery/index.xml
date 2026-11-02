@@ -21,6 +21,35 @@
           &lt;p&gt;[A cross-platform mobile application designed for user networking and real-time messaging, featuring GPS location tracking, Firebase Cloud Messaging (FCM) push notifications, and hybrid NoSQL data persistence powered by Neo4j and Firebase. I integrated Firebase Realtime Database to manage live data synchronization for the location and messaging features, while utilizing Neo4j to model and query the complex network of relationships. The gallery below includes excerpts from my academic paper, structural overviews of the solution, and core C# and XAML implementations. Click here to see the App in Action](https://youtube.com/shorts/KCAALVRFGHE)&lt;/p&gt;
         </description></item>
     <item>
+      <title>Building a Chess AI: Pascal and C# Implementations</title>
+      <link>https://zoltanmajnek.github.io/gallery/chess/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
+      <guid>https://zoltanmajnek.github.io/gallery/chess/</guid>
+        <media:content url="https://zoltanmajnek.github.io/gallery/chess/2_hu_1b71864d16364251.png" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/chess/2_hu_1b71864d16364251.png&quot; /&gt;
+          &lt;p&gt;This project showcases the development of a custom chess application across two distinct eras of programming: my original implementation built in DOS using Turbo Pascal 7.0 (1997), and a modernized, Object-Oriented version written in C# (2020).
+
+
+### The Core Challenge
+
+
+**Dynamic Data Structures:** Unlike modern languages with built-in dynamic collections, the 1997 Pascal implementation required building **pointer-based dynamic linked lists** from scratch. This manual heap memory management was necessary to store the dynamically generated legal moves, overcoming the strict limitations of fixed-size arrays.
+
+
+**Game Tree Construction:** Implementing a recursive algorithm to look ahead multiple half-moves (ply) to anticipate future board states.
+
+
+**Optimal Move Selection:** Utilizing the **Minimax algorithm with Alpha-Beta pruning** to efficiently analyze the game tree and select the best possible path.
+
+
+**Board State Evaluation:** Applying a heuristic evaluation function that assigns numerical values to specific board configurations, taking into account factors like material balance and piece mobility.
+
+
+### Additional Features
+Beyond the core AI algorithms, the application also manages full game state persistence, allowing players to save, load, and replay matches.&lt;/p&gt;
+        </description></item>
+    <item>
       <title>Building an End-to-End Data Warehouse with SSIS &amp; Power BI</title>
       <link>https://zoltanmajnek.github.io/gallery/ssis/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
@@ -29,16 +58,6 @@
         <description>
           &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/ssis/ssisp_hu_13d6fb5771a45238.jpg&quot; /&gt;
           &lt;p&gt;Designed and built an end-to-end Data Warehouse from a custom relational dataset. The project involved designing a dimensional model (star schema), developing a robust ETL pipeline with comprehensive error handling in SSIS, and creating analytical data visualizations in Power BI. (The project&#39;s documentation pages were translated from Hungarian into English using Microsoft Word&#39;s built-in translation feature.)&lt;/p&gt;
-        </description></item>
-    <item>
-      <title>CHESS applications</title>
-      <link>https://zoltanmajnek.github.io/gallery/chess/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0200</pubDate><author>majnek.zoltan@gmail.com (Zoltan Majnek)</author>
-      <guid>https://zoltanmajnek.github.io/gallery/chess/</guid>
-        <media:content url="https://zoltanmajnek.github.io/gallery/chess/ChessM21codepart_hu_252a276aa020c408.png" type="image/jpeg"/>
-        <description>
-          &lt;img src=&quot;https://zoltanmajnek.github.io/gallery/chess/ChessM21codepart_hu_252a276aa020c408.png&quot; /&gt;
-          &lt;p&gt;Game tree construction, alpha-beta pruning, and implementation of the Minmax algorithm. More content coming soon...&lt;/p&gt;
         </description></item>
     <item>
       <title>Data Visualization and Business Intelligence</title>
