@@ -101,3 +101,13 @@ margin-top: 20px;
         margin: 0 auto;
     }
 }
+
+#home .header-content .header-content-inner h1,
+#home .header-content .header-content-inner h2,
+#home .header-content .header-content-inner p {
+    color: #ffffff;
+    text-shadow: 
+        0 2px 6px rgba(0, 0, 0, 0.95),
+        0 4px 20px rgba(10, 20, 15, 0.85),
+        0 0 55px rgba(10, 20, 15, 0.8);
+}
